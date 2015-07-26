@@ -10,8 +10,7 @@ rundown on what's included.
 See this guide to learn how to import NPM modules/components via browserify in Meteor.
 
 For an in-depth example of how to use Meteor with React see 
-[React-ive Meteor](https://github.com/AdamBrodzinski/react-ive-meteor). For flux support see the  
-[Flux Leaderboard](https://github.com/AdamBrodzinski/meteor-flux-leaderboard) example app.
+[React-ive Meteor](https://github.com/AdamBrodzinski/react-ive-meteor). For flux support see the [Flux Leaderboard](https://github.com/AdamBrodzinski/meteor-flux-leaderboard) example app.
 
 #### Packages
 
