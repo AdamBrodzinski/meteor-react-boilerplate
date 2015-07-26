@@ -1,7 +1,7 @@
 Home = React.createClass({
   render() {
     return (
-      <div className='Home'>
+      <div className={classNames('Home', 'foo', 'bar')} >
         <h1>Welcome to Meteor!</h1>
 
         <p> This repo aims to get you up and running with sane
