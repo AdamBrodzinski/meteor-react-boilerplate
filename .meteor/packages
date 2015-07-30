@@ -6,7 +6,7 @@
 
 meteor-platform
 react
-meteorhacks:flow-router
+kadira:flow-router
 kadira:react-layout
 meteorhacks:npm
 npm-container
