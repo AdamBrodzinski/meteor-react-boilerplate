@@ -1,18 +1,16 @@
-// Router API https://github.com/meteorhacks/flow-router
-// Layout API https://github.com/kadirahq/meteor-react-layout
+// Reaktor API:  https://github.com/kadirahq/meteor-reaktor
+// Router API:   https://github.com/meteorhacks/flow-router
 
-FlowRouter.route("/", {
-  action() {
-    ReactLayout.render(MainLayout, { content: <Home /> });
-  }
-});
+// NOTE see flow-router branch for the vanilla router
 
-FlowRouter.route("/about", {
-  action() {
-    ReactLayout.render(MainLayout, { content: <About /> });
-  }
-});
+Reaktor.init(
+  <Router>
+    <Route path="/" content={Home} layout={MainLayout} />
+    <Route path="/about" content={About} layout={MainLayout} />
+  </Router>
+);
 
+// Reaktor doensn't have a notFound component yet
 FlowRouter.notFound = {
   action() {
     ReactLayout.render(MainLayout, { content: <NotFound /> });

@@ -29,6 +29,7 @@ json@1.0.3
 jsx@0.1.5
 kadira:flow-router@2.2.0
 kadira:react-layout@1.2.0
+kadira:reaktor@1.0.1
 launch-screen@1.0.2
 less@1.0.14
 livedata@1.0.13
