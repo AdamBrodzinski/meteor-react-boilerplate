@@ -4,7 +4,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
 react
 meteorhacks:npm
 npm-container
@@ -13,3 +12,18 @@ accounts-password
 accounts-ui
 kadira:flow-router
 kadira:reaktor
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+ecmascript
