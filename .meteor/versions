@@ -28,6 +28,7 @@ ecmascript-runtime@0.2.10
 ejson@1.0.11
 email@1.0.12
 fastclick@1.0.11
+gadicc:blaze-react-component@1.1.1
 geojson-utils@1.0.8
 hot-code-push@1.0.4
 html-tools@1.0.9

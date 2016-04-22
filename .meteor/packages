@@ -22,3 +22,4 @@ check
 ecmascript
 standard-minifier-css
 standard-minifier-js
+gadicc:blaze-react-component
