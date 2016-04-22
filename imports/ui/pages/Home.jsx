@@ -1,4 +1,6 @@
-Home = React.createClass({
+import React from 'react';
+
+function Home() {
   render() {
     return (
       <div className={classNames('Home', 'foo', 'bar')} >
@@ -9,14 +11,14 @@ Home = React.createClass({
           that we can so serverside rendering more easily. Here's
           the rundown on what's included.</p>
 
-          <p>
-            See <a href="https://github.com/meteor/react-packages/blob/master/docs/client-npm.md">
-              this guide</a> to learn how to import NPM modules/components via browserify in Meteor.
-          </p>
+        <p>
+          See <a href="https://github.com/meteor/react-packages/blob/master/docs/client-npm.md">
+          this guide</a> to learn how to import NPM modules/components via browserify in Meteor.
+        </p>
 
-          <p>
-            For an in-depth example of how to use Meteor with React see <a href="https://github.com/AdamBrodzinski/react-ive-meteor">Reactive Meteor</a>. For flux support see the <a href="https://github.com/AdamBrodzinski/meteor-flux-leaderboard">Flux Leaderboard</a> example app.
-          </p>
+        <p>
+          For an in-depth example of how to use Meteor with React see <a href="https://github.com/AdamBrodzinski/react-ive-meteor">Reactive Meteor</a>. For flux support see the <a href="https://github.com/AdamBrodzinski/meteor-flux-leaderboard">Flux Leaderboard</a> example app.
+        </p>
 
         <h4>Packages</h4>
 
@@ -56,4 +58,6 @@ Home = React.createClass({
       </div>
     );
   }
-});
+}
+
+export default Home

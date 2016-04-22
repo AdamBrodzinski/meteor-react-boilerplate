@@ -1,4 +1,7 @@
-Header = React.createClass({
+import React from 'react'
+import LoginButtons from '../LoginButtons.jsx'
+
+export default class Header extends React.Component {
   render() {
     return (
       <header className='Header'>
@@ -11,4 +14,4 @@ Header = React.createClass({
       </header>
     );
   }
-});
+}
