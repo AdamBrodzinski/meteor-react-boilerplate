@@ -1,2 +1,1 @@
-// Import the app
-import './app.jsx'
+import './app.jsx';

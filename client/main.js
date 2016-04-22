@@ -1,1 +1,1 @@
-import '../imports/startup/client/main.js'
+import '../imports/startup/client/main.js';

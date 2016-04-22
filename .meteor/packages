@@ -6,9 +6,6 @@
 
 accounts-password
 accounts-ui
-kadira:flow-router
-kadira:reaktor
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -23,3 +20,5 @@ ejson
 spacebars
 check
 ecmascript
+standard-minifier-css
+standard-minifier-js
