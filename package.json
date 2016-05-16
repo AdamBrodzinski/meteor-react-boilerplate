@@ -1,0 +1,26 @@
+{
+  "name": "meteor-react-boilerplate",
+  "version": "1.0.1",
+  "description": "Meteor React Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamBrodzinski/meteor-react-boilerplate"
+  },
+  "author": "Ryen Beatty <ryen.beatty@gmail.com> (http://ryenbeatty.co)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamBrodzinski/meteor-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AdamBrodzinski/meteor-react-boilerplate",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "history": "^2.1.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.3.0"
+  }
+}
