@@ -19,8 +19,6 @@ For an in-depth example of how to use Meteor with React see
 - React Layout
 - Accounts Password
 - Accounts UI (with React wrapper)
-- meteorhacks:npm
-- cosmos:browserify
 - Removes insecure
 - Removes autopublish
 
