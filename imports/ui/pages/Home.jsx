@@ -7,8 +7,8 @@ function Home() {
       <h1>Welcome to Meteor!</h1>
 
       <p> This repo aims to get you up and running with sane
-        defauts. Most of the content is in the 'both' folder so
-        that we can so serverside rendering more easily. Here's
+        defaults. Most of the content is in the 'both' folder so
+        that we can do serverside rendering more easily. Here's
         the rundown on what's included.</p>
 
       <p>
