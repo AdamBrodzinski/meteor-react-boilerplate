@@ -6,11 +6,6 @@ function Home() {
     <div className={classNames('Home', 'foo', 'bar')} >
       <h1>Welcome to Meteor!</h1>
 
-      <p> This repo aims to get you up and running with sane
-        defaults. Most of the content is in the 'both' folder so
-        that we can do serverside rendering more easily. Here's
-        the rundown on what's included.</p>
-
       <p>
         See <a href="https://github.com/meteor/react-packages/blob/master/docs/client-npm.md">
         this guide</a> to learn how to import NPM modules/components via browserify in Meteor.
