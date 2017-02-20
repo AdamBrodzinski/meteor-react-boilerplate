@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 import LoginButtons from './LoginButtons.jsx';
 
@@ -8,10 +8,9 @@ export default class Header extends React.Component {
     return (
       <header className='Header'>
         <b>Header</b> &nbsp;
-        <Link to="/">Home</Link> &nbsp;
-        <Link to="about">About Page</Link> &nbsp;
-        <Link to="bad-url">Not Found Page</Link> &nbsp;
-
+        <NavLink activeClassName="active" exact to="/">Home</NavLink>
+        <NavLink activeClassName="active" to="/about">About Page</NavLink>
+        <NavLink to="/bad-url">Not Found Page</NavLink>
         <LoginButtons align='left' />
       </header>
     );
